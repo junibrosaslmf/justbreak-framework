@@ -6,5 +6,5 @@
   "linked": [],
   "access": "public",
   "updateInternalDependencies": "patch",
-  "ignore": ["@justbreak/docs"]
+  "ignore": ["@junibrosas/docs"]
 }

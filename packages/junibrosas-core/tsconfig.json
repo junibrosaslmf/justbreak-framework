@@ -1,5 +1,5 @@
 {
-  "extends": "@justbreak/tsconfig/react-library.json",
+  "extends": "@junibrosas/tsconfig/react-library.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }

@@ -14,10 +14,10 @@ module.exports = {
       resolve: {
         alias: [
           {
-            find: "@justbreak/core",
+            find: "@junibrosas/core",
             replacement: path.resolve(
               __dirname,
-              "../../../packages/justbreak-core/"
+              "../../../packages/junibrosas-core/"
             ),
           },
         ],

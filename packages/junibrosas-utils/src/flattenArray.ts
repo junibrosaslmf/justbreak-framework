@@ -10,5 +10,7 @@ export function flattenArray<T>(list: T[], key = 'children'): T[] {
     return item;
   });
 
+  console.log(list);
+
   return flatten?.concat(children.length ? flattenArray(children, key) : children);
 }

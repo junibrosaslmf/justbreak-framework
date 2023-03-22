@@ -1,5 +1,11 @@
 # @junibrosas/utils
 
+## 2.0.0
+
+### Major Changes
+
+- 206cb3e: hello
+
 ## 1.0.0
 
 ### Major Changes

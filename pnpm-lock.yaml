@@ -5,15 +5,9 @@ importers:
   .:
     specifiers:
       '@changesets/cli': ^2.25.2
-      '@emotion/cache': ^11.10.5
       '@emotion/react': ^11.10.6
-      '@emotion/server': ^11.10.0
       '@emotion/styled': ^11.10.6
-      '@mui/lab': 5.0.0-alpha.124
       '@mui/material': ^5.11.14
-      '@mui/system': ^5.11.14
-      '@mui/x-data-grid': ^6.0.2
-      '@mui/x-date-pickers': ^6.0.2
       eslint: ^8.29.0
       eslint-config-junibrosas: workspace:0.0.0
       prettier: ^2.8.0
@@ -21,15 +15,9 @@ importers:
       turbo: latest
     devDependencies:
       '@changesets/cli': 2.25.2
-      '@emotion/cache': 11.10.5
       '@emotion/react': 11.10.6_react@18.2.0
-      '@emotion/server': 11.10.0
       '@emotion/styled': 11.10.6_3og6jmu6wvzuytygvdoxepq3x4
-      '@mui/lab': 5.0.0-alpha.124_7ytgldyfsyhpfd5ub2zgasskqe
       '@mui/material': 5.11.14_fbxtuirhogpez7m7qjkm3itwca
-      '@mui/system': 5.11.14_xqp3pgpqjlfxxa3zxu4zoc4fba
-      '@mui/x-data-grid': 6.0.2_qy4xrxgydc7elzkjvg3md3goay
-      '@mui/x-date-pickers': 6.0.2_hxmdosinlcdymxw46g3ljjoeei
       eslint: 8.29.0
       eslint-config-junibrosas: link:packages/eslint-config-junibrosas
       prettier: 2.8.0
@@ -2276,39 +2264,6 @@ packages:
 
   /@mui/core-downloads-tracker/5.11.14:
     resolution: {integrity: sha512-rfc08z6+3Fif+Gopx2/qmk+MEQlwYeA+gOcSK048BHkTty/ol/boHuVeL2BNC/cf9OVRjJLYHtVb/DeW791LSQ==}
-    dev: true
-
-  /@mui/lab/5.0.0-alpha.124_7ytgldyfsyhpfd5ub2zgasskqe:
-    resolution: {integrity: sha512-K/XEv1zYyLi3tS63tyDta1mqWql+at5w7rWp5Yd63Jx1NjPUtgopAvyRZG2SVYPs/yBwfyDPW1iqQXpRw8h9Xw==}
-    engines: {node: '>=12.0.0'}
-    peerDependencies:
-      '@emotion/react': ^11.5.0
-      '@emotion/styled': ^11.3.0
-      '@mui/material': ^5.0.0
-      '@types/react': ^17.0.0 || ^18.0.0
-      react: ^17.0.0 || ^18.0.0
-      react-dom: ^17.0.0 || ^18.0.0
-    peerDependenciesMeta:
-      '@emotion/react':
-        optional: true
-      '@emotion/styled':
-        optional: true
-      '@types/react':
-        optional: true
-    dependencies:
-      '@babel/runtime': 7.21.0
-      '@emotion/react': 11.10.6_react@18.2.0
-      '@emotion/styled': 11.10.6_3og6jmu6wvzuytygvdoxepq3x4
-      '@mui/base': 5.0.0-alpha.122_biqbaboplfbrettd7655fr4n2y
-      '@mui/material': 5.11.14_fbxtuirhogpez7m7qjkm3itwca
-      '@mui/system': 5.11.14_xqp3pgpqjlfxxa3zxu4zoc4fba
-      '@mui/types': 7.2.3
-      '@mui/utils': 5.11.13_react@18.2.0
-      clsx: 1.2.1
-      prop-types: 15.8.1
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-      react-is: 18.2.0
     dev: true
 
   /@mui/material/5.11.14_fbxtuirhogpez7m7qjkm3itwca:

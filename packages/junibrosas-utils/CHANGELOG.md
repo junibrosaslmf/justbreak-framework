@@ -1,5 +1,11 @@
 # @junibrosas/utils
 
+## 2.0.1
+
+### Patch Changes
+
+- fc6ff7c: add helpers package
+
 ## 2.0.0
 
 ### Major Changes

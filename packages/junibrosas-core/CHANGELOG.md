@@ -1,5 +1,11 @@
 # @junibrosas/core
 
+## 1.2.4
+
+### Patch Changes
+
+- 09f294b: hello world problem
+
 ## 1.2.3
 
 ### Patch Changes

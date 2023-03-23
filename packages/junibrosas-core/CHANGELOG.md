@@ -1,5 +1,11 @@
 # @junibrosas/core
 
+## 1.2.0
+
+### Minor Changes
+
+- 2006df6: add textfield
+
 ## 1.1.0
 
 ### Minor Changes

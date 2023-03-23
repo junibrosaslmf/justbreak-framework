@@ -1,5 +1,11 @@
 # @junibrosas/core
 
+## 1.2.6
+
+### Patch Changes
+
+- c735831: add empty content component
+
 ## 1.2.5
 
 ### Patch Changes

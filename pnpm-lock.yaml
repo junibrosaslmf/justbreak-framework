@@ -29,6 +29,7 @@ importers:
       '@junibrosas/core': workspace:1.2.7
       '@junibrosas/helpers': workspace:^0.0.1
       '@junibrosas/tsconfig': workspace:0.0.0
+      '@junibrosas/utils': workspace:^2.0.1
       '@storybook/addon-actions': ^6.5.14
       '@storybook/addon-docs': ^6.5.14
       '@storybook/addon-essentials': ^6.5.14
@@ -45,6 +46,7 @@ importers:
     dependencies:
       '@junibrosas/core': link:../../packages/junibrosas-core
       '@junibrosas/helpers': link:../../packages/junibrosas-helpers
+      '@junibrosas/utils': link:../../packages/junibrosas-utils
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:

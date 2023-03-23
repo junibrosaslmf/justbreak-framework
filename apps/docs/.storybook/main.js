@@ -27,6 +27,13 @@ module.exports = {
               "../../../packages/junibrosas-helpers/"
             ),
           },
+          {
+            find: "@junibrosas/utils",
+            replacement: path.resolve(
+              __dirname,
+              "../../../packages/junibrosas-utils/"
+            ),
+          },
         ],
       },
     };

@@ -27,7 +27,7 @@ importers:
   apps/docs:
     specifiers:
       '@junibrosas/core': workspace:1.2.7
-      '@junibrosas/helpers': workspace:^0.0.1
+      '@junibrosas/helpers': workspace:^0.0.2
       '@junibrosas/tsconfig': workspace:0.0.0
       '@junibrosas/utils': workspace:^2.0.1
       '@storybook/addon-actions': ^6.5.14

@@ -1,0 +1,1 @@
+export { flattenArray } from './flattenArray';

@@ -1,5 +1,11 @@
 # @junibrosas/core
 
+## 1.2.1
+
+### Patch Changes
+
+- fa0e192: export form module
+
 ## 1.2.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @junibrosas/core
 
+## 1.2.2
+
+### Patch Changes
+
+- 2ef6423: fix dynamic react issue
+
 ## 1.2.1
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @junibrosas/core
 
+## 1.2.7
+
+### Patch Changes
+
+- c3846f7: hello world
+
 ## 1.2.6
 
 ### Patch Changes

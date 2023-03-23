@@ -1,5 +1,11 @@
 # @junibrosas/core
 
+## 1.2.3
+
+### Patch Changes
+
+- 94e12b2: update lib
+
 ## 1.2.2
 
 ### Patch Changes

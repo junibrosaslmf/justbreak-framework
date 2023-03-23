@@ -1,5 +1,11 @@
 # @junibrosas/core
 
+## 1.2.5
+
+### Patch Changes
+
+- ae73cc1: peer dep react-hook-form
+
 ## 1.2.4
 
 ### Patch Changes

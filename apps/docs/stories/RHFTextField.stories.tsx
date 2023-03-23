@@ -3,7 +3,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { useForm } from 'react-hook-form';
 
-import FormProvider, { RHFTextField } from '../../../packages/junibrosas-core/src/forms';
+import FormProvider, { RHFTextField } from '@junibrosas/core/src/forms';
 
 export default {
   /* 👇 The title prop is optional.

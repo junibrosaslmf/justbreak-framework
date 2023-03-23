@@ -1,5 +1,11 @@
 # @junibrosas/utils
 
+## 2.0.2
+
+### Patch Changes
+
+- 3a633b3: add package
+
 ## 2.0.1
 
 ### Patch Changes

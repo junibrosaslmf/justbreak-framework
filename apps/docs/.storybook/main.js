@@ -14,24 +14,21 @@ module.exports = {
       resolve: {
         alias: [
           {
-            find: "@junibrosas/core",
+            find: "@lmf/core",
+            replacement: path.resolve(__dirname, "../../../packages/lmf-core/"),
+          },
+          {
+            find: "@lmf/helpers",
             replacement: path.resolve(
               __dirname,
-              "../../../packages/junibrosas-core/"
+              "../../../packages/lmf-helpers/"
             ),
           },
           {
-            find: "@junibrosas/helpers",
+            find: "@lmf/utils",
             replacement: path.resolve(
               __dirname,
-              "../../../packages/junibrosas-helpers/"
-            ),
-          },
-          {
-            find: "@junibrosas/utils",
-            replacement: path.resolve(
-              __dirname,
-              "../../../packages/junibrosas-utils/"
+              "../../../packages/lmf-utils/"
             ),
           },
         ],

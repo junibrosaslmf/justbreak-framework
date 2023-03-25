@@ -1,5 +1,5 @@
 {
-  "name": "@junibrosas/docs",
+  "name": "@lmf/docs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,14 @@
     "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "dependencies": {
-    "@junibrosas/core": "workspace:1.2.7",
-    "@junibrosas/helpers": "workspace:^0.0.2",
-    "@junibrosas/utils": "workspace:^2.0.2",
+    "@lmf/core": "workspace:1.2.7",
+    "@lmf/helpers": "workspace:^0.0.2",
+    "@lmf/utils": "workspace:^2.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@junibrosas/tsconfig": "workspace:0.0.0",
+    "@lmf/tsconfig": "workspace:0.0.0",
     "@storybook/addon-actions": "^6.5.14",
     "@storybook/addon-docs": "^6.5.14",
     "@storybook/addon-essentials": "^6.5.14",
@@ -24,7 +24,7 @@
     "@storybook/builder-vite": "^0.1.41",
     "@storybook/react": "^6.5.14",
     "@vitejs/plugin-react": "^1.3.2",
-    "eslint-config-junibrosas": "workspace:0.0.0",
+    "eslint-config-lmf": "workspace:0.0.0",
     "serve": "^13.0.4",
     "typescript": "^4.9.3",
     "vite": "^2.9.15"

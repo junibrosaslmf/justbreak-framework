@@ -48,7 +48,7 @@ This Turborepo includes the following packages and applications:
 - `packages/@lmfv/core`: Core React components
 - `packages/@lmfv/utils`: Shared React utilities
 - `packages/@lmfv/tsconfig`: Shared `tsconfig.json`s used throughout the Turborepo
-- `packages/eslint-config-lmf`: ESLint preset
+- `packages/eslint-config-lmfv`: ESLint preset
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/). Workspaces enables us to "hoist" dependencies that are shared between packages to the root `package.json`. This means smaller `node_modules` folders and a better local dev experience. To install a dependency for the entire monorepo, use the `-w` workspaces flag with `pnpm add`.
 
@@ -60,15 +60,15 @@ To make the core library code work across all browsers, we need to compile the r
 
 Running `pnpm build` from the root of the Turborepo will run the `build` command defined in each package's `package.json` file. Turborepo runs each `build` in parallel and caches & hashes the output to speed up future builds.
 
-For `lmf-core`, the `build` command is the following:
+For `lmfv-core`, the `build` command is the following:
 
 ```bash
 tsup src/index.tsx --format esm,cjs --dts --external react
 ```
 
-`tsup` compiles `src/index.tsx`, which exports all of the components in the design system, into both ES Modules and CommonJS formats as well as their TypeScript types. The `package.json` for `lmf-core` then instructs the consumer to select the correct format:
+`tsup` compiles `src/index.tsx`, which exports all of the components in the design system, into both ES Modules and CommonJS formats as well as their TypeScript types. The `package.json` for `lmfv-core` then instructs the consumer to select the correct format:
 
-```json:lmf-core/package.json
+```json:lmfv-core/package.json
 {
   "name": "@lmfv/core",
   "version": "0.0.0",
@@ -79,10 +79,10 @@ tsup src/index.tsx --format esm,cjs --dts --external react
 }
 ```
 
-Run `pnpm build` to confirm compilation is working correctly. You should see a folder `lmf-core/dist` which contains the compiled output.
+Run `pnpm build` to confirm compilation is working correctly. You should see a folder `lmfv-core/dist` which contains the compiled output.
 
 ```bash
-lmf-core
+lmfv-core
 └── dist
     ├── index.d.ts  <-- Types
     ├── index.js    <-- CommonJS version
@@ -91,9 +91,9 @@ lmf-core
 
 ## Components
 
-Each file inside of `lmf-core/src` is a component inside our design system. For example:
+Each file inside of `lmfv-core/src` is a component inside our design system. For example:
 
-```tsx:lmf-core/src/Button.tsx
+```tsx:lmfv-core/src/Button.tsx
 import * as React from 'react';
 
 export interface ButtonProps {
@@ -109,7 +109,7 @@ Button.displayName = 'Button';
 
 When adding a new file, ensure the component is also exported from the entry `index.tsx` file:
 
-```tsx:lmf-core/src/index.tsx
+```tsx:lmfv-core/src/index.tsx
 import * as React from "react";
 export { Button, type ButtonProps } from "./Button";
 // Add new component exports here
@@ -180,10 +180,10 @@ When you push your code to GitHub, the [GitHub Action](https://github.com/change
 turbo run build --filter=docs^... && changeset publish
 ```
 
-Turborepo runs the `build` script for all publishable packages (excluding docs) and publishes the packages to npm. By default, this example includes `lmf` as the npm organization. To change this, do the following:
+Turborepo runs the `build` script for all publishable packages (excluding docs) and publishes the packages to npm. By default, this example includes `lmfv` as the npm organization. To change this, do the following:
 
-- Rename folders in `packages/*` to replace `lmf` with your desired scope
-- Search and replace `lmf` with your desired scope
+- Rename folders in `packages/*` to replace `lmfv` with your desired scope
+- Search and replace `lmfv` with your desired scope
 - Re-run `pnpm install`
 
 To publish packages to a private npm organization scope, **remove** the following from each of the `package.json`'s

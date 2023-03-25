@@ -15,20 +15,23 @@ module.exports = {
         alias: [
           {
             find: "@lmfv/core",
-            replacement: path.resolve(__dirname, "../../../packages/lmf-core/"),
+            replacement: path.resolve(
+              __dirname,
+              "../../../packages/lmfv-core/"
+            ),
           },
           {
             find: "@lmfv/helpers",
             replacement: path.resolve(
               __dirname,
-              "../../../packages/lmf-helpers/"
+              "../../../packages/lmfv-helpers/"
             ),
           },
           {
             find: "@lmfv/utils",
             replacement: path.resolve(
               __dirname,
-              "../../../packages/lmf-utils/"
+              "../../../packages/lmfv-utils/"
             ),
           },
         ],

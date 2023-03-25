@@ -1,16 +1,4 @@
-# @lmf/helpers
-
-## 0.0.2
-
-### Patch Changes
-
-- c2ea4ce: add new function
-
-## 0.0.1
-
-### Patch Changes
-
-- fc6ff7c: add helpers package
+# @lmfv/core
 
 ## 1.2.7
 

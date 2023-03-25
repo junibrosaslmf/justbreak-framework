@@ -14,18 +14,18 @@ module.exports = {
       resolve: {
         alias: [
           {
-            find: "@lmf/core",
+            find: "@lmfv/core",
             replacement: path.resolve(__dirname, "../../../packages/lmf-core/"),
           },
           {
-            find: "@lmf/helpers",
+            find: "@lmfv/helpers",
             replacement: path.resolve(
               __dirname,
               "../../../packages/lmf-helpers/"
             ),
           },
           {
-            find: "@lmf/utils",
+            find: "@lmfv/utils",
             replacement: path.resolve(
               __dirname,
               "../../../packages/lmf-utils/"

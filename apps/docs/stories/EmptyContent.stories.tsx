@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { EmptyContent } from '@lmf/core/src/empty-content';
+import { EmptyContent } from '@lmfv/core/src/empty-content';
 
 export default {
   /* 👇 The title prop is optional.

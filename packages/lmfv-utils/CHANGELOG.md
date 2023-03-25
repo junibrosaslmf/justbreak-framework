@@ -1,4 +1,4 @@
-# @lmf/utils
+# @lmfv/utils
 
 ## 2.0.2
 

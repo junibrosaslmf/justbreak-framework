@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { useForm } from 'react-hook-form';
 import { styled, Stack } from '@mui/material';
 
-import FormProvider, { RHFTextField, RHFPhone } from '@lmf/core/src/hook-form';
+import FormProvider, { RHFTextField, RHFPhone } from '@lmfv/core/src/hook-form';
 
 export default {
   /* 👇 The title prop is optional.

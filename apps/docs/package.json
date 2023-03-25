@@ -1,5 +1,5 @@
 {
-  "name": "@lmf/docs",
+  "name": "@lmfv/docs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,14 @@
     "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "dependencies": {
-    "@lmf/core": "workspace:1.2.7",
-    "@lmf/helpers": "workspace:^0.0.2",
-    "@lmf/utils": "workspace:^2.0.2",
+    "@lmfv/core": "workspace:1.2.7",
+    "@lmfv/helpers": "workspace:^0.0.2",
+    "@lmfv/utils": "workspace:^2.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@lmf/tsconfig": "workspace:0.0.0",
+    "@lmfv/tsconfig": "workspace:0.0.0",
     "@storybook/addon-actions": "^6.5.14",
     "@storybook/addon-docs": "^6.5.14",
     "@storybook/addon-essentials": "^6.5.14",

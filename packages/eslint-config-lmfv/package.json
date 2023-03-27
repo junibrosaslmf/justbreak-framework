@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-lmfv",
+  "name": "@lmf/eslint-config-lmfv",
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",

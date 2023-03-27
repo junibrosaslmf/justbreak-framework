@@ -2,29 +2,14 @@ import React from 'react';
 
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { useForm } from 'react-hook-form';
-import { styled, Stack } from '@mui/material';
-
-import FormProvider, { RHFTextField, RHFPhone } from '@lmfv/core/src/hook-form';
+import { Stack, styled } from '@mui/material';
+import { FormProvider, RHFPhone } from '@lmfv/forms/src';
 
 export default {
-  /* 👇 The title prop is optional.
-  * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
-  * to learn how to generate automatic titles
-  */
-  title: 'RHFTextField',
-  component: RHFTextField,
-} as ComponentMeta<typeof RHFTextField>;
+  title: 'Forms',
+} as ComponentMeta<any>;
 
-const ArrowDown = styled("div")({
-  width: "0",
-  height: "0",
-  marginLeft: "8px",
-  borderLeft: "4px solid transparent",
-  borderRight: "4px solid transparent",
-  borderTop: "6px solid red",
-});
-
-export const Primary: ComponentStory<typeof RHFTextField> = () => {
+export const Phone: ComponentStory<typeof RHFPhone> = () => {
   const methods = useForm({
     mode: 'onChange',
     defaultValues: {
@@ -35,7 +20,6 @@ export const Primary: ComponentStory<typeof RHFTextField> = () => {
   return (
     <FormProvider methods={methods}>
       <Stack spacing={3}>
-        <RHFTextField name="fullname" variant="outlined" label="sample" />
         <RHFPhone
           name="mobile"
           label="Phone"
@@ -43,6 +27,31 @@ export const Primary: ComponentStory<typeof RHFTextField> = () => {
           variant="outlined"
           autoComplete="'off'"
         />
+      </Stack>
+    </FormProvider>
+  )
+};
+
+export const PhoneWithCustomArrow: ComponentStory<typeof RHFPhone> = () => {
+  const ArrowDown = styled("div")({
+    width: "0",
+    height: "0",
+    marginLeft: "8px",
+    borderLeft: "4px solid transparent",
+    borderRight: "4px solid transparent",
+    borderTop: "6px solid red",
+  });
+
+  const methods = useForm({
+    mode: 'onChange',
+    defaultValues: {
+      fullname: '',
+    },
+  });
+
+  return (
+    <FormProvider methods={methods}>
+      <Stack spacing={3}>
         <RHFPhone
           name="mobile"
           label="Phone"

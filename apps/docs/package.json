@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@lmfv/core": "workspace:1.2.7",
+    "@lmfv/forms": "workspace:^1.2.7",
     "@lmfv/helpers": "workspace:^0.0.2",
     "@lmfv/utils": "workspace:^2.0.2",
     "react": "^18.2.0",

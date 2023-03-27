@@ -6,5 +6,5 @@
   "linked": [],
   "access": "public",
   "updateInternalDependencies": "patch",
-  "ignore": ["@lmfv/docs"]
+  "ignore": ["@lmfv/docs", "@lmfv/web"]
 }

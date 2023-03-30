@@ -1,5 +1,11 @@
 # @lmfv/utils
 
+## 2.0.3
+
+### Patch Changes
+
+- fd06847: sync change
+
 ## 2.0.2
 
 ### Patch Changes

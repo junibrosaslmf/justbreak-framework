@@ -1,6 +1,6 @@
 # Turborepo Design System
 
-This guide explains how to use a React design system starter powered by:
+This guide explains how to use the Web UI powered by:
 
 - 🏎 [Turborepo](https://turbo.build/repo) — High-performance build system for Monorepos
 - 🚀 [React](https://reactjs.org/) — JavaScript library for user interfaces

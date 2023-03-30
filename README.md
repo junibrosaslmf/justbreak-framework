@@ -1,6 +1,8 @@
 # Turborepo Design System
 
-This guide explains how to use the Web UI powered by:
+> This project is being developed actively so expect frequent changes and unstable releases.
+
+This guide explains how to use a React design system starter powered by:
 
 - 🏎 [Turborepo](https://turbo.build/repo) — High-performance build system for Monorepos
 - 🚀 [React](https://reactjs.org/) — JavaScript library for user interfaces
@@ -48,7 +50,7 @@ This Turborepo includes the following packages and applications:
 - `packages/@lmfv/core`: Core React components
 - `packages/@lmfv/utils`: Shared React utilities
 - `packages/@lmfv/tsconfig`: Shared `tsconfig.json`s used throughout the Turborepo
-- `packages/eslint-config-lmfv`: ESLint preset
+- `packages/@lmfv/eslint-config-lmfv`: ESLint preset
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/). Workspaces enables us to "hoist" dependencies that are shared between packages to the root `package.json`. This means smaller `node_modules` folders and a better local dev experience. To install a dependency for the entire monorepo, use the `-w` workspaces flag with `pnpm add`.
 

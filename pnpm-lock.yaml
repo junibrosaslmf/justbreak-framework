@@ -7,9 +7,9 @@ importers:
       '@changesets/cli': ^2.25.2
       '@emotion/react': ^11.10.6
       '@emotion/styled': ^11.10.6
+      '@lmf/eslint-config-lmfv': workspace:0.0.0
       '@mui/material': ^5.11.14
       eslint: ^8.29.0
-      eslint-config-lmfv: workspace:0.0.0
       prettier: ^2.8.0
       react-hook-form: ^7.43.7
       turbo: latest
@@ -17,15 +17,16 @@ importers:
       '@changesets/cli': 2.25.2
       '@emotion/react': 11.10.6_react@18.2.0
       '@emotion/styled': 11.10.6_3og6jmu6wvzuytygvdoxepq3x4
+      '@lmf/eslint-config-lmfv': link:packages/eslint-config-lmfv
       '@mui/material': 5.11.14_fbxtuirhogpez7m7qjkm3itwca
       eslint: 8.29.0
-      eslint-config-lmfv: link:packages/eslint-config-lmfv
       prettier: 2.8.0
       react-hook-form: 7.43.7_react@18.2.0
       turbo: 1.8.5
 
   apps/docs:
     specifiers:
+      '@lmf/eslint-config-lmfv': workspace:0.0.0
       '@lmfv/core': workspace:1.2.7
       '@lmfv/forms': workspace:^1.2.7
       '@lmfv/helpers': workspace:^0.0.2
@@ -38,7 +39,6 @@ importers:
       '@storybook/builder-vite': ^0.1.41
       '@storybook/react': ^6.5.14
       '@vitejs/plugin-react': ^1.3.2
-      eslint-config-lmfv: workspace:0.0.0
       react: ^18.2.0
       react-dom: ^18.2.0
       serve: ^13.0.4
@@ -52,6 +52,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
+      '@lmf/eslint-config-lmfv': link:../../packages/eslint-config-lmfv
       '@lmfv/tsconfig': link:../../packages/tsconfig
       '@storybook/addon-actions': 6.5.14_biqbaboplfbrettd7655fr4n2y
       '@storybook/addon-docs': 6.5.14_smmo6gg34ehcmlryqwwccgfkrq
@@ -60,7 +61,6 @@ importers:
       '@storybook/builder-vite': 0.1.41_34fdeg4its734v54rqmsynntkq
       '@storybook/react': 6.5.14_kvf5geqpu5lsuowekldej2ox2i
       '@vitejs/plugin-react': 1.3.2
-      eslint-config-lmfv: link:../../packages/eslint-config-lmfv
       serve: 13.0.4
       typescript: 4.9.3
       vite: 2.9.15
@@ -91,13 +91,13 @@ importers:
     specifiers:
       '@emotion/react': ^11.10.6
       '@emotion/styled': ^11.10.6
+      '@lmf/eslint-config-lmfv': workspace:*
       '@lmfv/tsconfig': workspace:*
       '@mui/material': ^5.11.14
       '@types/react': ^18.0.9
       '@types/react-dom': ^18.0.4
       country-flag-icons: ^1.5.7
       eslint: ^8.15.0
-      eslint-config-lmfv: workspace:*
       lodash.debounce: ^4.0.8
       lodash.memoize: ^4.1.2
       react: ^18.1.0
@@ -113,11 +113,11 @@ importers:
       lodash.memoize: 4.1.2
       react-hook-form: 7.43.7_react@18.2.0
     devDependencies:
+      '@lmf/eslint-config-lmfv': link:../eslint-config-lmfv
       '@lmfv/tsconfig': link:../tsconfig
       '@types/react': 18.0.29
       '@types/react-dom': 18.0.11
       eslint: 8.36.0
-      eslint-config-lmfv: link:../eslint-config-lmfv
       react: 18.2.0
       tsup: 5.12.9_typescript@4.9.3
       typescript: 4.9.3
@@ -138,13 +138,13 @@ importers:
     specifiers:
       '@emotion/react': ^11.10.6
       '@emotion/styled': ^11.10.6
+      '@lmf/eslint-config-lmfv': workspace:*
       '@lmfv/tsconfig': workspace:*
       '@mui/material': ^5.11.14
       '@types/react': ^18.0.9
       '@types/react-dom': ^18.0.4
       country-flag-icons: ^1.5.7
       eslint: ^8.15.0
-      eslint-config-lmfv: workspace:*
       lodash.debounce: ^4.0.8
       lodash.memoize: ^4.1.2
       react: ^18.1.0
@@ -160,31 +160,31 @@ importers:
       lodash.memoize: 4.1.2
       react-hook-form: 7.43.7_react@18.2.0
     devDependencies:
+      '@lmf/eslint-config-lmfv': link:../eslint-config-lmfv
       '@lmfv/tsconfig': link:../tsconfig
       '@types/react': 18.0.29
       '@types/react-dom': 18.0.11
       eslint: 8.36.0
-      eslint-config-lmfv: link:../eslint-config-lmfv
       react: 18.2.0
       tsup: 5.12.9_typescript@4.9.3
       typescript: 4.9.3
 
   packages/helpers:
     specifiers:
+      '@lmf/eslint-config-lmfv': workspace:*
       '@lmfv/tsconfig': workspace:*
       '@types/react': ^18.0.9
       '@types/react-dom': ^18.0.4
       eslint: ^8.15.0
-      eslint-config-lmfv: workspace:*
       react: ^18.1.0
       tsup: ^5.10.1
       typescript: ^4.5.3
     devDependencies:
+      '@lmf/eslint-config-lmfv': link:../eslint-config-lmfv
       '@lmfv/tsconfig': link:../tsconfig
       '@types/react': 18.0.29
       '@types/react-dom': 18.0.11
       eslint: 8.36.0
-      eslint-config-lmfv: link:../eslint-config-lmfv
       react: 18.2.0
       tsup: 5.12.9_typescript@4.9.3
       typescript: 4.9.3
@@ -194,20 +194,20 @@ importers:
 
   packages/utils:
     specifiers:
+      '@lmf/eslint-config-lmfv': workspace:*
       '@lmfv/tsconfig': workspace:*
       '@types/react': ^18.0.9
       '@types/react-dom': ^18.0.4
       eslint: ^8.15.0
-      eslint-config-lmfv: workspace:*
       react: ^18.1.0
       tsup: ^5.10.1
       typescript: ^4.5.3
     devDependencies:
+      '@lmf/eslint-config-lmfv': link:../eslint-config-lmfv
       '@lmfv/tsconfig': link:../tsconfig
       '@types/react': 18.0.29
       '@types/react-dom': 18.0.11
       eslint: 8.36.0
-      eslint-config-lmfv: link:../eslint-config-lmfv
       react: 18.2.0
       tsup: 5.12.9_typescript@4.9.3
       typescript: 4.9.3

@@ -1,5 +1,11 @@
 # @lmfv/core
 
+## 1.2.8
+
+### Patch Changes
+
+- fd06847: sync change
+
 ## 1.2.7
 
 ### Patch Changes
